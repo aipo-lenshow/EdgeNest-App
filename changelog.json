@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "entries": [
+    {
+      "version": "1.53.0720",
+      "build": 92,
+      "date": "2026-07-20",
+      "zh": "- 新增「更新记录」：在 设置 → 关于 中查看每个版本的更新内容，了解产品的变化历史；有新版本时先看更新内容再决定升级。\n- 规则数据的「刚更新」标记改为仅在更新后短暂显示，随后自动隐藏，不再长期停留。",
+      "en": "- New Changelog: see what each version changed in Settings → About, and review the update history; when an update is available, read its notes before choosing to upgrade.\n- The rule-data \"just updated\" flag now shows briefly right after a refresh and then hides on its own, instead of lingering."
+    },
+    {
+      "version": "1.52.0720",
+      "build": 91,
+      "date": "2026-07-20",
+      "zh": "汇集近期新增的多项能力：\n- 网络工具箱：连通性 / DNS 查询 / CDN 探测。\n- HTTPS 抓包与改写：本机解密、查看并按规则改写请求与响应。\n- 网络自动化：按 Wi-Fi 网络或网络条件自动切换规则，支持强制门户检测。\n- 翻译：划词（⇧⌘T）、语音（⇧⌘V）、视频（系统声音）翻译，均在本机运行。\n- 截图标注：区域 / 窗口截图的标注编辑器，含拼图、OCR、录屏。\n- 规则集在线化：广告拦截与路由规则集改为按需下载并本地加载。\n- 跨设备局域网共享：配对码升级为 128 位密钥，文件传输进度 / 取消 / 批量操作。\n- 新增可关闭的匿名安装统计：仅随机安装 ID、版本号、平台三项，可在 设置 → 关于 关闭。",
+      "en": "Brings together several recently added capabilities:\n- Network toolbox: reachability, DNS lookup, and CDN probe.\n- HTTPS inspect & rewrite: decrypt, inspect, and rewrite requests and responses locally by rule.\n- Network automation: switch rules by Wi-Fi network or network condition, with captive-portal detection.\n- Translation: select-text (⇧⌘T), voice (⇧⌘V), and video (system audio), all on-device.\n- Screenshot annotation: an editor for region/window captures, with collage, OCR, and screen recording.\n- Online rule sets: ad-blocking and routing rule sets are downloaded on demand and loaded locally.\n- Cross-device LAN sharing: pairing code upgraded to a 128-bit secret; transfer progress, cancel, and batch actions.\n- New optional anonymous install statistics: just a random install ID, version, and platform — switchable off in Settings → About."
+    },
+    {
+      "version": "1.32.0719",
+      "build": 71,
+      "date": "2026-07-19",
+      "zh": "- 设置页新增独立「快捷键」区域，一处查看全部快捷键（含划词与语音翻译热键）。\n- 菜单栏新增「翻译」入口，与工具页开关同步。\n- 关于页与使用帮助随当前功能刷新：新增网络工具箱、HTTPS 抓包改写、网络自动化等章节。\n- iOS：HTTPS 抓包改写、网络工具箱、网络自动化现可在本机使用。",
+      "en": "- Settings now has a dedicated Hotkeys area listing every shortcut (including the translation hotkeys).\n- New Translate entry in the menu bar, in sync with the Tools tab toggles.\n- About and Help refreshed for the current feature set: added Network toolbox, HTTPS inspect-and-rewrite, and Network automation sections.\n- iOS: HTTPS inspect-and-rewrite, the network toolbox, and network automation are now usable on device."
+    },
+    {
+      "version": "1.15.0717",
+      "build": 48,
+      "date": "2026-07-17",
+      "zh": "- HTTPS 抓包与改写：证书管理（安装 / 信任 / 移除）与响应改写。\n- 网络自动化：macOS 支持按当前 Wi-Fi 网络名匹配规则。",
+      "en": "- HTTPS inspect & rewrite: certificate management (install / trust / remove) and response rewriting.\n- Network automation: macOS can match rules by the current Wi-Fi network name."
+    },
+    {
+      "version": "1.05.0711",
+      "build": 36,
+      "date": "2026-07-11",
+      "zh": "- 新增应用内自动更新：应用会自动检查新版本，也可在 设置 → 关于 → 检查更新 手动检查；确认后自动下载安装。\n- 小组件与出口检测的跨端改进：返回前台时自动校准连接状态与网络出口显示。",
+      "en": "- New in-app auto-update: the app checks for new versions automatically, or manually via Settings → About → Check for updates; confirm to download and install.\n- Cross-platform widget and egress-console improvements: connection state and exit readings re-sync when returning to the foreground."
+    }
+  ]
+}
