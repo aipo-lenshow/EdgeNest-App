@@ -3,10 +3,10 @@
   "entries": [
     {
       "version": "1.53.0720",
-      "build": 92,
+      "build": 93,
       "date": "2026-07-20",
-      "zh": "- 新增「更新记录」：在 设置 → 关于 中查看每个版本的更新内容，了解产品的变化历史；有新版本时先看更新内容再决定升级。\n- 规则数据的「刚更新」标记改为仅在更新后短暂显示，随后自动隐藏，不再长期停留。",
-      "en": "- New Changelog: see what each version changed in Settings → About, and review the update history; when an update is available, read its notes before choosing to upgrade.\n- The rule-data \"just updated\" flag now shows briefly right after a refresh and then hides on its own, instead of lingering."
+      "zh": "- 新增「更新记录」：在 设置 → 关于 中查看每个版本的更新内容，了解产品的变化历史；有新版本时先看更新内容再决定升级。\n- 规则数据的「刚更新」标记改为仅在更新后短暂显示，随后自动隐藏，不再长期停留。\n- 修复部分网络环境下全新安装时提示「已损坏」、需手动执行命令才能打开的问题（安装包现已随包自带公证票据，装完即用）。",
+      "en": "- New Changelog: see what each version changed in Settings → About, and review the update history; when an update is available, read its notes before choosing to upgrade.\n- The rule-data \"just updated\" flag now shows briefly right after a refresh and then hides on its own, instead of lingering.\n- Fixed a fresh-install \"app is damaged\" error on some networks that required a manual command to open (the build now carries its notarization ticket, so it just works after install)."
     },
     {
       "version": "1.52.0720",
