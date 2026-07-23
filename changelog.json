@@ -2,6 +2,15 @@
   "schema": 1,
   "entries": [
     {
+      "version": "1.83.0723",
+      "build": 127,
+      "date": "2026-07-23",
+      "zh": "汇集近期 Android 端的 Wi-Fi 工具：\n- Wi-Fi 分析器：扫描附近无线网络，查看频段、信道与实时信号，支持按名称或 BSSID 搜索，以及收藏与隐藏。\n- Wi-Fi 监视：把关注的热点加入监视列表，它们出现时提醒；允许后可在后台按间隔记录出现时间。\n- 填写 BSSID 时自动补齐冒号并纠正格式，粘贴不带分隔符、或使用短横线、点号分隔的 BSSID 都会自动整理为标准写法。\n其他修复：\n- 小组件「本月流量」统计异常偏大的问题已修复：现在跨应用启动持续准确累计（包含应用未打开期间产生的流量）；本次升级会把本月计数清零一次，此后重新开始准确累计。",
+      "en": "Brings together the recent Android Wi-Fi tools:\n- Wi-Fi analyzer: scan nearby wireless networks and see band, channel and live signal, with search by name or BSSID, plus favorites and hiding.\n- Wi-Fi monitoring: add the APs you care about to a watch list and get notified when they appear; once allowed, record sightings on an interval in the background.\n- Entering a BSSID now auto-inserts the colons and fixes the format — pasted without separators, or written with dashes or dots, it is tidied into the standard form automatically.\nOther fixes:\n- Fixed the widget's This Month traffic over-counting: it now accumulates accurately across app launches (including traffic that moved while the app was closed); this update resets the month's counter once, after which counting starts fresh.",
+      "seekZh": "无线热点寻源（授权后可用）：\n- 已知坐标反查、现场实时测向与多点定位、多目标测向与抬头雷达、地图落点。\n- 邻居热点：查询某个已知热点时，顺带列出它周边的一批热点，不额外查询；可按距离档显示各档数量、按 BSSID 或名称筛选，并可收藏、设为新目标继续查或在地图上查看。",
+      "seekEn": "Wireless AP locating (available once authorized):\n- Known-coordinate lookup, on-site real-time direction finding and multi-point triangulation, multi-target direction finding with a heads-up radar, and map pins.\n- Neighbor APs: looking up a known AP now also lists nearby APs returned in the same response — no extra query; view per-distance-band counts, filter by BSSID or name, plus favorite / make-next-target / view-on-map actions."
+    },
+    {
       "version": "1.53.0720",
       "build": 93,
       "date": "2026-07-20",
