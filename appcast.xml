@@ -4,6 +4,29 @@
     <title>EdgeNest</title>
     <language>en</language>
     <item>
+      <title>v1.83.0723</title>
+      <pubDate>Thu, 23 Jul 2026 10:05:43 +0000</pubDate>
+      <sparkle:version>127</sparkle:version>
+      <sparkle:shortVersionString>1.83.0723</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>本次更新（1.83.0723）：<br/>
+        - 修复小组件「本月流量」统计异常偏大的问题：流量现在跨应用启动持续准确累计（包含应用未打开期间产生的流量）。<br/>
+        - 升级后首次启动会把本月流量计数清零一次并重新开始累计，仅此一次。<br/>
+        - 完整变化可在 设置 → 关于 → 更新记录 中查看。<br/>
+        <br/>
+        This update (1.83.0723):<br/>
+        - Fixed the widget&#x27;s This Month traffic over-counting: totals now accumulate accurately across app launches (including traffic that moved while the app was closed).<br/>
+        - The first launch after this update resets the month&#x27;s counter once, after which counting starts fresh — one time only.<br/>
+        - Full history is available under Settings → About → Changelog.</p>
+        <p><em>更新会重启应用，当前连接会短暂断开，更新完成后重新连接即可。</em><br/><em>Updating restarts the app; the current connection drops briefly — reconnect after the update finishes.</em></p>
+      ]]></description>
+      <enclosure url="https://github.com/aipo-lenshow/EdgeNest-app/releases/download/v1.83.0723-b127/EdgeNest-1.83.0723.dmg"
+                 length="109264540"
+                 type="application/octet-stream"
+                 sparkle:edSignature="vmwazZebHO/bUbDoDXX3A1XMiLcY6SWGX77bZxI7wFw1MNV4EbENRWPH4PkBvVWetFSWZr67Boa94TGI52zPAg==" />
+    </item>
+    <item>
       <title>v1.53.0720</title>
       <pubDate>Mon, 20 Jul 2026 16:07:15 +0000</pubDate>
       <sparkle:version>93</sparkle:version>
