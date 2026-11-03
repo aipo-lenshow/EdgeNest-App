@@ -12,7 +12,7 @@ This repository is the download and auto-update channel for the EdgeNest client.
 
 **安装**：打开 dmg，把 EdgeNest 拖进「应用程序」文件夹即可。安装包已经过 Apple 公证，双击正常打开，不需要额外的确认步骤。
 
-**升级**：应用会自动检查更新（基于 Sparkle），发现新版本会提示下载安装；也可以在 设置 → 关于 → 检查更新 手动检查。
+**升级**：应用会自动检查更新（基于 Sparkle），发现新版本会提示下载安装；也可以在 设置 → 关于与帮助 → 检查更新 手动检查。
 
 ---
 
@@ -22,7 +22,7 @@ This repository is the download and auto-update channel for the EdgeNest client.
 
 **Install**: Open the dmg and drag EdgeNest into Applications. The installer is notarized by Apple, so it opens normally with no extra confirmation.
 
-**Update**: The app checks for updates automatically via Sparkle and prompts you when a new version is available; you can also check manually from Settings → About → Check for updates.
+**Update**: The app checks for updates automatically via Sparkle and prompts you when a new version is available; you can also check manually from Settings → About & help → Check for updates.
 
 ## Windows
 
@@ -86,6 +86,6 @@ This repository is the download and auto-update channel for the EdgeNest client.
 
 ## 路由器版 / Router build
 
-面向 OpenWrt 系路由器（如 iStoreOS）的版本是独立产品，通过路由器管理面板自带的升级功能分发，安装包不在本仓库提供。
+面向 OpenWrt 系路由器（如 iStoreOS）的版本是独立产品，安装包、预装镜像和安装方法在 [EdgeNest-Router](https://github.com/aipo-lenshow/EdgeNest-Router)。装好后在路由器面板里就能在线升级。
 
-The build for OpenWrt-family routers (such as iStoreOS) is a separate product, distributed through the router's own management-panel update feature; installers are not hosted in this repository.
+The build for OpenWrt-family routers (such as iStoreOS) is a separate product. Its packages, preinstalled images and install steps are at [EdgeNest-Router](https://github.com/aipo-lenshow/EdgeNest-Router); once installed it upgrades from the router's own panel.
