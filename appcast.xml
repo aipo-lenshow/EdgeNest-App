@@ -5,6 +5,23 @@
     <language>en</language>
     <item>
       <title>v1.94</title>
+      <pubDate>Sat, 14 Nov 2026 15:25:12 +0000</pubDate>
+      <sparkle:version>214</sparkle:version>
+      <sparkle:shortVersionString>1.94</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>- 修复通过应用内更新升级后，桌面小组件仍停留在旧版本的问题。<br/>
+        <br/>
+        - Fixed the desktop widget staying on the old version after an in-app update.</p>
+        <p><em>更新会重启应用，当前连接会短暂断开，更新完成后重新连接即可。</em><br/><em>Updating restarts the app; the current connection drops briefly — reconnect after the update finishes.</em></p>
+      ]]></description>
+      <enclosure url="https://github.com/aipo-lenshow/EdgeNest-App/releases/download/v1.94/EdgeNest-1.94.dmg"
+                 length="121236530"
+                 type="application/octet-stream"
+                 sparkle:edSignature="+SpOYiQso87YgiK7xhGc3zK07Uz+ZtS890D+c+C7Pi41JehpJQ/wdNrYYopiQhYeKDG20sAk7PUjpucLo9P/BA==" />
+    </item>
+    <item>
+      <title>v1.94</title>
       <pubDate>Sat, 14 Nov 2026 14:19:58 +0000</pubDate>
       <sparkle:version>210</sparkle:version>
       <sparkle:shortVersionString>1.94</sparkle:shortVersionString>
