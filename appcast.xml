@@ -5,6 +5,28 @@
     <language>en</language>
     <item>
       <title>v1.94</title>
+      <pubDate>Sat, 14 Nov 2026 14:19:58 +0000</pubDate>
+      <sparkle:version>210</sparkle:version>
+      <sparkle:shortVersionString>1.94</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <p>macOS<br/>
+        - 正在使用的 CDN 地址连不通时，大约一分钟内自动换到下一个能用的地址，不用再等十几分钟。<br/>
+        - 桌面小组件不再频繁刷新：内容没变时不重画，流量数字每 5 分钟更新一次，减少后台占用。<br/>
+        - 没有使用组网节点时，不再在后台检查家里能不能连上；人在家里时也不再反复检查。<br/>
+        <br/>
+        - When the CDN address in use stops answering, the app moves to the next working address within about a minute instead of after ten minutes or more.<br/>
+        - The desktop widget no longer refreshes constantly: it is not redrawn when nothing changed, and traffic figures update every 5 minutes, so less runs in the background.<br/>
+        - When a mesh node is not the one in use, the app no longer checks in the background whether home can be reached; at home it no longer keeps checking either.</p>
+        <p><em>更新会重启应用，当前连接会短暂断开，更新完成后重新连接即可。</em><br/><em>Updating restarts the app; the current connection drops briefly — reconnect after the update finishes.</em></p>
+      ]]></description>
+      <enclosure url="https://github.com/aipo-lenshow/EdgeNest-App/releases/download/v1.94/EdgeNest-1.94.dmg"
+                 length="121231283"
+                 type="application/octet-stream"
+                 sparkle:edSignature="2oo2hawAk58THD3XeC0MJlU05uyl/yEaJ9FkPC1u+LDztA7Fkqb54aRy89nyMrXrJmkC4URz6iEPfl78Lm4mCw==" />
+    </item>
+    <item>
+      <title>v1.94</title>
       <pubDate>Fri, 13 Nov 2026 11:03:32 +0000</pubDate>
       <sparkle:version>207</sparkle:version>
       <sparkle:shortVersionString>1.94</sparkle:shortVersionString>
